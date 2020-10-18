@@ -142,7 +142,7 @@ gulp.task('rollup:umd', function () {
       }
 
     }))
-    .pipe(rename('ngx-international-phone-number.umd.js'))
+    .pipe(rename('ngx-international-phone-number2.umd.js'))
     .pipe(gulp.dest(distFolder));
 });
 
